@@ -1,0 +1,185 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 10155 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\ProgramFiles86\Unitys\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/My Game/Harmonic/Harmonix
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65071
+Successfully changed project path to: E:/My Game/Harmonic/Harmonix
+E:/My Game/Harmonic/Harmonix
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path E:/ProgramFiles86/Unitys/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/My Game/Harmonic/Harmonix/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   
+    VRAM:     5077 MB
+    Driver:   20.19.15.5166
+Initialize mono
+Mono path[0] = 'E:/ProgramFiles86/Unitys/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/ProgramFiles86/Unitys/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/ProgramFiles86/Unitys/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/ProgramFiles86/Unitys/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001990 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.291 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.981 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 6.446700 ms (FindLiveObjects: 0.372200 ms CreateObjectMapping: 0.706400 ms MarkObjects: 5.047300 ms  DeleteObjects: 0.318300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Downloaded
+  artifactKey: Guid(c97f3e26075c3fa48bd84573a832a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded using Guid(c97f3e26075c3fa48bd84573a832a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c56551649479c8b82d69e018a9e76bd') in 0.041483 seconds
+  Import took 0.050479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.107263 seconds.
+  path: Assets/Downloaded/Test
+  artifactKey: Guid(e315f9bbd332e924f9824798482914e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test using Guid(e315f9bbd332e924f9824798482914e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b900b5b75afe08562da023329d3537') in 0.020091 seconds
+  Import took 0.030695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 442.676175 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Scenes/Start.unity
+  artifactKey: Guid(a7efac3f0da73e7439004acd29203987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Scenes/Start.unity using Guid(a7efac3f0da73e7439004acd29203987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee861c22acb845123fcf1e1705634e9') in 0.063311 seconds
+  Import took 0.071993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.438434 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Scenes/TestMain.unity
+  artifactKey: Guid(3d5c8f19b96d5e94084bd88798b1bb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Scenes/TestMain.unity using Guid(3d5c8f19b96d5e94084bd88798b1bb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308a97b950e04b8d1925c06d3805e2e6') in 0.021642 seconds
+  Import took 0.032624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.135007 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial
+  artifactKey: Guid(cb776073f4c3a414cbe09a5890fb6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial using Guid(cb776073f4c3a414cbe09a5890fb6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b1701d4744b01779bedb4cb86e2727') in 0.032580 seconds
+  Import took 0.043659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001677 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial
+  artifactKey: Guid(cb776073f4c3a414cbe09a5890fb6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial using Guid(cb776073f4c3a414cbe09a5890fb6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b1701d4744b01779bedb4cb86e2727') in 0.005242 seconds
+  Import took 0.018014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.729004 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Script
+  artifactKey: Guid(3554b86cd3d58ae46b7f8deaa1106099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Script using Guid(3554b86cd3d58ae46b7f8deaa1106099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0fa4b59e58fd4a31385ec065e4ee8e') in 0.033926 seconds
+  Import took 0.048441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.934650 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs
+  artifactKey: Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs using Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f39517cceaf1e91d0706ce3e38b343') in 0.143368 seconds
+  Import took 0.167105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.654470 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs
+  artifactKey: Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs using Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399aa5267e1e23f72fe0f7cd01d03415') in 0.075144 seconds
+  Import took 0.088768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.977251 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs
+  artifactKey: Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs using Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9827cc1122c8288d3ba78646804c21') in 0.100978 seconds
+  Import took 0.113896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.379013 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs
+  artifactKey: Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs using Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b742d1c0d673bb98e3fe70434329bf') in 0.065740 seconds
+  Import took 0.082404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.209795 seconds.
+  path: Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs
+  artifactKey: Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Test/Rhythm Game Tutorial/Script/ButtonController.cs using Guid(361e39b12b738c94c8bdde24ad0f1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a079ead672f720e5bfb3544105375f') in 0.046498 seconds
+  Import took 0.071779 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.083414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 3.819100 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.100800 ms MarkObjects: 3.276700 ms  DeleteObjects: 0.177700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
