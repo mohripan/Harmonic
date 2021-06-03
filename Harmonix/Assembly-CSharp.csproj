@@ -57,6 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Downloaded\Test\Rhythm Game Tutorial\Script\ButtonController.cs" />
+    <Compile Include="Assets\Downloaded\Test\Rhythm Game Tutorial\Script\BeatScroller.cs" />
+    <Compile Include="Assets\Downloaded\Test\Rhythm Game Tutorial\Script\NoteObject.cs" />
+    <Compile Include="Assets\Downloaded\Test\Rhythm Game Tutorial\Script\GameManager.cs" />
+    <Compile Include="Assets\Downloaded\Test\Rhythm Game Tutorial\Script\MicSounds.cs" />
+    <Compile Include="Assets\Test\Script\AudioPeer.cs" />
+    <Compile Include="Assets\Test\Script\Instantiate512.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

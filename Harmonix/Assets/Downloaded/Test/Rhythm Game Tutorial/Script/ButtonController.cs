@@ -8,8 +8,28 @@ public class ButtonController : MonoBehaviour
     [SerializeField] private Sprite defaultImage;
     [SerializeField] private Sprite pressedImage;
 
+    [SerializeField] private KeyCode keyToPress;
+
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Update()
+    {
+        pressKey();
+    }
+
+    private void pressKey()
+    {
+        if (Input.GetKeyDown(keyToPress))
+        {
+            spriteRenderer.sprite = pressedImage;
+        }
+
+        if (Input.GetKeyUp(keyToPress))
+        {
+            spriteRenderer.sprite = defaultImage;
+        }
     }
 }
